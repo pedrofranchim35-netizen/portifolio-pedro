@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim - Pedro F</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="extensao_00.css">
+    <style>
+        .sobre-bloco { margin-top: 28px; }
+        .avatar-placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 28px auto 8px;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background: var(--bg3);
+            border: 4px solid var(--accent);
+            box-shadow: 0 4px 20px rgba(59,130,246,0.25);
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: 2.2rem;
+            color: var(--accent);
+        }
+        .lista-projetos {
+            list-style: disc;
+            padding-left: 22px;
+            max-width: 620px;
+            margin: 12px auto 0;
+            text-align: left;
+        }
+        .lista-projetos li { color: var(--muted); margin-bottom: 9px; font-size: 0.97rem; }
+        .lista-projetos li strong { color: var(--text); }
+    </style>
+</head>
+<body class="page-body">
+
+<div id="overlay"></div>
+
+<aside id="sidebar" aria-label="Menu lateral">
+    <div class="sidebar-header">
+        <h1>Pedro F</h1>
+        <p class="subtitulo">Estudante de Tecnologia da Informação</p>
+    </div>
+    <nav class="sidebar-nav">
+        <ul>
+            <li><a href="index.html" target="_self"><span class="nav-icon"></span>Início</a></li>
+            <li><a href="habilidades00.html" target="_self"><span class="nav-icon"></span>Habilidades</a></li>
+            <li><a href="curiosidades.html" target="_self"><span class="nav-icon"></span>Curiosidades</a></li>
+            <li><a href="contato00.html" target="_self"><span class="nav-icon"></span>Contato</a></li>
+            <li><a href="calculadora.html" target="_self"><span class="nav-icon"></span>Calculadora</a></li>
+        </ul>
+    </nav>
+    <div class="sidebar-footer">
+        <p>Desenvolvido por <strong>Pedro F</strong></p>
+        <p style="margin-top:6px;">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pedrofranchim35@gmail.com" target="_blank">E-mail</a>
+            &nbsp;|&nbsp;
+            <a href="https://github.com/pedrofranchim" target="_blank">GitHub</a>
+        </p>
+    </div>
+</aside>
+
+<header id="topbar">
+    <button id="menu-btn" aria-label="Abrir menu" aria-expanded="false" aria-controls="sidebar">
+        ☰ Menu
+    </button>
+</header>
+
+<main class="centralizado">
+    <section id="sobre">
+        <h2>Sobre o Pedro</h2>
+        <p>Pedro atua em uma equipe de banco de dados de um Network Operations Center (NOC), onde gerencia a infraestrutura de sistemas corporativos e a administração multiplataforma de bancos de dados — incluindo a rotina de ligar <em>pluggable databases</em> e gerenciar esquemas como o <em>faturamentosdb</em>.</p>
+
+        <div class="sobre-bloco">
+            <h3>Como comecei e Hardware</h3>
+            <p>Sua trajetória envolve muito trabalho prático, não se limitando apenas a software. Pedro realiza modificações físicas e troubleshooting avançado em GPUs e placas-mãe de impressoras 3D (reconhecendo rapidamente os dispositivos de diagnóstico na placa). Ele também domina testes de conectividade local e avaliações de segurança de rede sem fio.</p>
+        </div>
+
+        <div class="sobre-bloco">
+            <h3>No que estou trabalhando</h3>
+            <p>Além das operações corporativas e dos estudos para a certificação Oracle Database Administration I, Pedro desenvolve diversos projetos próprios:</p>
+            <ul class="lista-projetos">
+                <li><strong>Automação Local de IA</strong> — Arquitetura utilizando n8n, webhooks e interfaces locais de LLM para integrar inteligência artificial aos workspaces de produtividade.</li>
+                <li><strong>Desenvolvimento Web</strong> — Programação de extensões funcionais para o Google Chrome e criação de jogos web customizados (estrelando uma toupeira autêntica no design).</li>
+                <li><strong>Emulação Retrô</strong> — Configuração intensiva de firmwares no console Trimui Smart Pro rodando CrossMix-OS, ajustes no PortMaster e setup do PokeMMO.</li>
+                <li><strong>Design Gráfico</strong> — Criação de modificações gráficas personalizadas, como camisetas escolares com emblemas específicos.</li>
+            </ul>
+        </div>
+
+        <div class="sobre-bloco">
+            <h3>Objetivos</h3>
+            <p>Objetivo de curto prazo — Avançar nas competências e arquitetura core para o exame Oracle DBA I, além de gerenciar a logística de suas viagens programadas (seja o planejamento cuidadoso para o Canadá ou o roteiro de São Paulo para Foz do Iguaçu).</p>
+        </div>
+
+        <div class="sobre-bloco">
+            <h3>Fora dos códigos</h3>
+            <p>Pedro é um fã de sistemas profundos e estratégia, dedicando seu tempo a jogos como Balatro, RimWorld, Frostpunk, Clash Royale e versões customizadas da comunidade, como Pokémon Black Pearl Emerald.</p>
+            <p>Sua paixão musical é forte: ele compõe e refina estruturalmente letras originais de Samba e Pagode, sempre apreciando o som de artistas como o projeto Samba de Dom. Para completar, acompanha ativamente os lançamentos da franquia de filmes do Homem-Aranha e valoriza o contato constante com a família, incluindo sua mãe, sua avó e seu irmão.</p>
+        </div>
+        
+        <img class="foto-perfil" src="pedro.jpg" alt="pedrin">
+    </section>
+</main>
+
+<footer>
+    Desenvolvido por <strong>pedro f</strong> &nbsp;|&nbsp;
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pedrofranchim35@gmail.com" target="_blank">E-mail</a>
+    &nbsp;|&nbsp;
+    <a href="https://github.com/pedrofranchim" target="_blank">GitHub</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
